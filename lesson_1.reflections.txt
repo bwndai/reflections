@@ -1,0 +1,9 @@
+git checkout  commit#
+git log
+
+git diff commit#1 commit#2
+
+git init
+#system will add a .git
+
+git status
