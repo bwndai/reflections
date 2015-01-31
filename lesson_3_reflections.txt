@@ -1,0 +1,9 @@
+#see current remotes
+git remote
+
+#add a remote
+git remote add remoteName then_the_link_to_remote_repository
+
+git remove -v
+
+git origin master

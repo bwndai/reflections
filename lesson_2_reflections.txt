@@ -1,2 +1,57 @@
 #add file from working area to staging area
 git add filename.filetype
+
+#want to remove the file you added to staging area
+git reset filename
+
+#find out what's been changed
+git status
+
+#git diff without any arguments is comparing 
+#file between working directory and staging area
+git diff
+
+
+#comparing files between staging area and
+#repository
+git diff -staged
+
+#be very careful
+git reset --hard
+
+
+#retach head
+git checkout master
+
+
+#check out all the branches you have
+git branch
+
+
+#visualize the logics of commit history
+git log --graph --oneline master coins
+
+#create a new branch
+git branch newBranchName
+
+
+#switch to other branch
+git checkout otherBranchName
+
+
+#creat a new breach to retain commits made to 
+#previous checkout commits
+
+git checkout -b new_branch_name
+
+#merge two branches
+#always checkout one of the two branches you're
+#planning on merging before doing the merge.
+git merge master coins
+
+#compare a commit to its parent
+#without knowing its parent's commit id
+git show commit_id
+
+#delete a branch label
+git branch -d coins
